@@ -3,7 +3,7 @@ DevOps is frequently understood as a framework to simplify complex things. This 
 
 * * *
 
-Florian Haas | [@xahteiwi@mastodon.social](https://twitter.com/xahteiwi@mastodon.social)
+Florian Haas | [@xahteiwi@mastodon.social](https://mastodon.social/@xahteiwi)
 
 Config Management Camp 2024 Ghent | 2024-02-05
 
