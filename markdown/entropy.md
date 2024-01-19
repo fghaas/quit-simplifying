@@ -1,8 +1,14 @@
 ## Three theories to explain the universe
 
-* General relativity
-* Quantum mechanics
-* Thermodynamics
+<!-- Note -->
+As far as we know, there are three fundamental physical theories that, combined, explain the universe as we know it: 
+
+
+General relativity
+
+Quantum mechanics
+
+Thermodynamics
 
 <!-- Note -->
 As far as we know, there are three fundamental physical theories that, combined, explain the universe as we know it: 
@@ -50,6 +56,7 @@ It means, bluntly speaking, that our lives get objectively and perpetually messi
 
 I don’t know if you’re in a better or worse place than you were 10 or 20 years ago in your life, but I’m pretty sure that you’re in a more *complicated* place now. 
 
+
 ## Backwards time travel
 
 Not an option.
@@ -79,3 +86,20 @@ You won’t be able to *reduce* disorder, and any attempt to do so pits you agai
 
 <!-- Note -->
 However, many managers are exactly the opposite: they are entropy accelerators; they speed up the growth of disorder in the organization.
+
+I posit that this is largely due to an oddly misguided fetish we have for the thing we call "leadership".
+
+People seem to believe that in order to be useful, people must **lead**, they must **do**, they must **direct** others, when in reality there are at least three productive things that people can do when they collaborate.
+And one of them is not necessarily better than the others.
+
+
+## Productive things people can do <!-- .element class="hidden" -->
+
+### Lead,
+
+### Follow,
+
+### Or get out of the way.
+
+(George S. Patton, paraphrased)
+
