@@ -1,16 +1,62 @@
 # Ansible
 
+<!-- Note -->
+This is Config Management Camp!
+So it's fairly safe to assume that everyone around here knows Ansible, at least to some degree.
+
+* Who knows Ansible?
+* Who has used Ansible to deploy or manage production systems?
+* Who has reported an Ansible issue or feature request?
+* Who has contributed to Ansible?
+
 
 ## Ansible repository on GitHub <!-- .element class="hidden" -->
 ![Ansible repository on GitHub](images/ansible-github.png)
 
 <https://github.com/ansible/ansible>
 
+<!-- Note -->
+You are most probably familiar with this.
+
+This is the Ansible repository on GitHub, whose commit history goes all the way back to 2012-02-23.
+
+```patch
+commit f31421576b00f0b167cdbe61217c31c21a41ac02
+Author: Michael DeHaan <michael.dehaan@gmail.com>
+Date:   Thu Feb 23 14:17:24 2012 -0500
+
+    Genesis.
+
+```
+
+
+## Ansible, citation needed <!-- .element class="hidden" -->
+
+![Cropped screenshot of Ansible Wikipedia page](images/ansible-citation-needed.png)
+
+<!-- Note -->
+Curiously, Wikipedia [has Ansible's initial release](https://en.wikipedia.org/wiki/Ansible_(software)) as having occurred on 2012-02-20, "[citation needed]"
+
+
+## Ansible repository on GitHub (2) <!-- .element class="hidden" -->
+![Ansible repository on GitHub](images/ansible-github.png)
+
+<!-- Note -->
+So anyway, back to the GitHub repo.
+
+There's something up here in the repository description that **I think** has been mostly unchanged since 2012.
+At least I remember it to have been there when I first started with Ansible, and I think I started pretty early on.
+
+Here's what it says:
+
 
 ## Ansible repository description <!-- .element class="hidden" -->
 Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain.
 
 Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems.
+
+<!-- Note -->
+So the second sentence I believe is more recent, but the first one is the one I think I remember as having been there from the get-go.
 
 
 ## "Radically simple" automation platform <!-- .element class="hidden" -->
@@ -24,6 +70,18 @@ Ansible is a **radically simple** IT automation platform that makes your applica
 ## Srsly. <!-- .element class="hidden" -->
 ![Srsly. (corruption of: seriously)](images/srsly.jpg)
 
+<!-- Note -->
+Would you actually describe Ansible to someone who is just starting out as "simple"?
+
+I think not.
+
+But where does that come from?
+
+Well first of all whether or not something is "simple" depends on: compared to what?
+
+And in 2012, when Ansible started, the thing you would compare it against was the incumbent in the server automation space, which was of course Puppet.
+And Puppet had been around since 2005.
+
 
 ## 2012
 
@@ -33,11 +91,7 @@ Ansible is a **radically simple** IT automation platform that makes your applica
 | Age      | 7      | 0          |
 | Could Do | A Lot  | A Lot Less |
 
+<!-- Note -->
+So naturally, Ansible was "simpler" than Puppet, just because there was a jolly good lot of things you could do with Puppet, and a lot *less* you could do with Ansible.
 
-## Simplest CLI
-(in Python)
-
-```python
-if __name__ == '__main__':
-  pass
-```
+Because, as a system grows more features and capabilities, it's subject to a rather interesting phenomenon.
