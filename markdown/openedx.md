@@ -23,6 +23,8 @@ Now, the reason I'm mentioning here is that it's full of great examples how comp
 
 ## Complexity does not recede <!-- .element class="hidden" -->
 
+### Takeaway #2
+
 Complexity does not recede.
 
 <!-- Note -->
@@ -37,7 +39,7 @@ To wit:
 
 ## MongoDB in Open edX <!-- .element class="hidden" -->
 
-We need a shared file system. <!-- .element class="fragment fade-in-then-semi-out" -->
+We need a shared file system. 
 
 We don't want NFS. <!-- .element class="fragment fade-in-then-semi-out" -->
 
@@ -123,12 +125,72 @@ But alas, it was also complicated to use and maintain and somewhat difficult to 
 So again, as with the MongoDB/Blockstore bit, people desired simplification.
 
 
+<!-- .slide: data-background-image="https://docs.tutor.edly.io/_images/launch.webp" data-background-size="contain" -->
+## Tutor
+
+<!-- Note -->
+And of course, containers make everything simpler, don't they?
+
+So now what happened was a project emerged to run Open edX in Docker containers, ostensibly with a single command.
+This project went through a few names, but now it's called *Tutor*.
+
+And of course, just as with the story of Ansible and Puppet, it was *simpler,* initially, because it couldn't do nearly as much as what the Ansible playbooks could do.
+
+
+<!-- .slide: data-timing="130" -->
 ## Tutor repo <!-- .element class="hidden" -->
 ![Screenshot of the overhangio/tutor repository on GitHub](images/tutor.png)
 
+<!-- Note -->
+But as soon as it approached something like feature parity, it was of course just as complex as the old bit.
 
+And, what Tutor actually does is it generates docker-compose definitions and Kubernetes manifests for you.
+So, of course it's just one more lap around the configuration complexity clock: it's code that generates more code, in a DSL.
+
+But Tutor illustrates another very typical problem in complexity management: making complexity someone else's problem.
+
+In Tutor the lead author maintains a policy that the project will only accept new features [if it benefits "a large proportion (~30-50%) of users"](https://github.com/overhangio/tutor/pull/675#issuecomment-1140919654).
+But Tutor has a plugin system that allows you to incorporate any feature you like, without touching the core.
+
+And now what you end up with is the core of the project being essentially unfit for its purpose without plugins, and the complexity of managing all the plugins and making them work together essentially ends up in the user's (the Open edX platform admin's) lap.
+
+In my experience, it's not uncommon to have to run something like 10 Tutor plugins to achieve some degree feature parity with what the Ansible playbooks offered.
+
+So that leads us to our next takeaway:
+
+
+<!-- .slide: data-timing="90" -->
+## Pushing complexity downstream does not reduce it. <!-- .element class="hidden" -->
+
+### Takeaway #3
+Pushing complexity downstream does not reduce it.
+
+It only makes it someone else's problem.
+
+<!-- Note -->
+Now, sure, we would prefer if things were simple, or simpler, for whoever *builds* something, too --- not just for whoever *uses* that thing.
+
+But we should keep in mind that the ratio of developers to users is... what?
+1:100? 1:1000? 1:10000?
+
+Examples: 
+* For Kubernetes the number of code contributors is on the order of 10,000, and there are [a few million Kubernetes clusters deployed worldwide](https://cloudnativenow.com/topics/how-many-kubernetes-clusters-exist-today/). 
+  It's difficult to estimate how many clusters there are per admin, and how many admins per cluster.
+  So its upstream-to-downstream ratio is probably in the 1:1000 range.
+* `curl` in contrast has on the order of 1,000 committers, and it *definitely* has way more than 100 million users.
+  So there, it's probably a ratio of 1:100000 or higher.
+  
+So making things simpler for some number of people, while making it more difficult for *orders of magnitude* **more** people, is not a net win and not a reduction in complexity, either. 
+
+So what can we do, really, to simplify?
+To reduce complexity?
+
+Now I hate to bust your bubble, but the answer is probably: nothing.
+
+And I have physics on my side to back me up.
+
+<!--
 ## Monolith to Microfrontends
-
 
 MVC to REST+XHR/Fetch
 
@@ -136,7 +198,7 @@ MVC to REST+XHR/Fetch
 
 2 releases per year
 
-
 ## 10-12 years?
 
 "What's a React, grandpa?"
+-->

@@ -1,14 +1,10 @@
 ## Three theories to explain the universe
 
-<!-- Note -->
-As far as we know, there are three fundamental physical theories that, combined, explain the universe as we know it: 
+General relativity <!-- .element class="fragment fade-in-then-semi-out" -->
 
+Quantum mechanics <!-- .element class="fragment fade-in-then-semi-out" -->
 
-General relativity
-
-Quantum mechanics
-
-Thermodynamics
+Thermodynamics <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
 As far as we know, there are three fundamental physical theories that, combined, explain the universe as we know it: 
@@ -23,6 +19,9 @@ Thermodynamics has a famous Second Law that can be stated in various ways — in
 ## Second Law of Thermodynamics
 
 The total entropy of a system never decreases.
+
+<!-- Note -->
+Now, what does that mean?
 
 
 ## Entropy
@@ -72,9 +71,10 @@ Good luck trying to rewind your life with teenage offspring, for example, to the
 But let’s also talk about how this affects work in a management position.
 
 
-## A manager's job
+## A manager's job <!-- .element class="hidden" -->
 
-**If you are a manager, it's your job to slow the growth of disorder in the part of the organization you manage.**
+### Takeaway #4
+If you are a manager, it's your job to slow the growth of disorder in the part of the organization you manage.
 
 <!-- Note -->
 You won’t be able to *reduce* disorder, and any attempt to do so pits you against a most fundamental law of physics.
@@ -82,10 +82,18 @@ You won’t be able to *reduce* disorder, and any attempt to do so pits you agai
 (Laws of physics are like terrorists: you shouldn’t attempt to negotiate with them.) 
 
 
-## Most managers == entropy accelerators
+## Most managers == entropy accelerators
 
 <!-- Note -->
 However, many managers are exactly the opposite: they are entropy accelerators; they speed up the growth of disorder in the organization.
+
+I've met one manager who looked at the Slack channel that their team used and found that communications were poor and chaotic, and it was impossible to follow what was happening.
+
+Their solution: more channels.
+(More channels that *everyone* who previously followed one channel now had to follow.)
+
+This is not a singular example.
+This sort of thing happens all the time.
 
 I posit that this is largely due to an oddly misguided fetish we have for the thing we call "leadership".
 

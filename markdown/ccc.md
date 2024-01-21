@@ -90,9 +90,9 @@ And of course the cycle doesn't stop there, because now your *inventory driver* 
 
 ## Other Configuration Complexity Clock examples <!-- .element class="hidden" -->
 
-Terraform -> Terragrunt
+Terraform → Terragrunt <!-- .element class="fragment fade-in-then-semi-out" -->
 
-Kubernetes manifests -> Helm charts
+Kubernetes manifests → Helm charts <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
 And just so I'm abundantly clear here, this is by no means limited to Ansible.
@@ -108,6 +108,9 @@ There's just no escaping the clock.
 
 
 ## Quit pretending you can escape <!-- .element class="hidden" -->
+
+### Takeaway #1
+
 **Quit pretending you can escape the Configuration Complexity Clock.**
 
 That next iteration you think will solve your complexity problem, won't.
