@@ -109,7 +109,7 @@ There's just no escaping the clock.
 
 ## Quit pretending you can escape <!-- .element class="hidden" -->
 
-### Takeaway #1
+### Takeaway #2
 
 **Quit pretending you can escape the Configuration Complexity Clock.**
 

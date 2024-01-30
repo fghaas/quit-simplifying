@@ -73,7 +73,7 @@ But let’s also talk about how this affects work in a management position.
 
 ## A manager's job <!-- .element class="hidden" -->
 
-### Takeaway #4
+### Takeaway #5
 If you are a manager, it's your job to slow the growth of disorder in the part of the organization you manage.
 
 <!-- Note -->
@@ -111,3 +111,10 @@ And one of them is not necessarily better than the others.
 
 (George S. Patton, paraphrased)
 
+<!-- Note -->
+Now I chose a paraphrase of that Patton quote because the original, naturally, contains more profanity.
+
+But really, there are three things that people can do in order to be productive, and "people" in this context very much *includes* managers.
+And I wish managers would sometimes take option #2 or #3, rather than always default to #1 and stirring the pot, creating ever more disorder.
+
+And I want to also mention *another* thing that people, including but not limited to managers, frequently misunderstand.

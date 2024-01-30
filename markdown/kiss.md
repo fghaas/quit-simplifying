@@ -52,6 +52,6 @@ It's about **keeping** things simple, not about **making** anything simple.
 The principle as such is quite aptly named: it reminds us that the important bit is to **keep** things simple while we can, *precisely because* it's impossible to **make** them simple (or simpler) later on.
 
 
-### Takeaway #5
+### Takeaway #6
 
 Aim to **keep** things simple, because you can't **make** them simple.

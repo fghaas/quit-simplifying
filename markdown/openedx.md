@@ -5,25 +5,30 @@ Now, with Ansible I could assume that everyone's familiar with the project, with
 
 Open edX is a general-purpose learning platform, not unlike Moodle (though while Moodle is a PHP codebase, Open edX is all Python).
 
+It came out of a platform developed at MIT, with initial collaboration from Harvard and Stanford universities.
+In 2013, it was released as an open source project, under the Affero GPL.
+So it's been around for more than 10 years.
+
 
 ## edx-platform repo <!-- .element class="hidden" -->
 ![Screenshot of the openedx/edx-platform repository on GitHub](images/edx-platform.png)
 
 <!-- Note -->
-It came out of a platform developed at MIT, with initial collaboration from Harvard and Stanford universities.
-In 2013, it was released as an open source project, under the Affero GPL.
-So it's been around for more than 10 years.
-
 It's widely used not only in academia, but also in business education, and it's something that I use in my day job on a daily basis, as a courseware author, a platform admin, and a developer.
 
 And at its core it's really a Django application, or rather a whole array of Django applications all working together.
+It has
+
+* a learning management system (LMS), which is what learners and tutors use,
+* a courseware management system, which is what instructional designers and course authors use,
+* and lots more adjacent components.
 
 Now, the reason I'm mentioning here is that it's full of great examples how complexity, once it's injected into a project or system, ...
 
 
 ## Complexity does not recede <!-- .element class="hidden" -->
 
-### Takeaway #2
+### Takeaway #3
 
 Complexity does not recede.
 
@@ -32,14 +37,22 @@ Complexity does not recede.
 
 Complexity is *always* here to stay.
 
-Let me give you one of many, many illustrative examples from this project 
+Now before I proceed, let's make one thing very clear.
+It don't mean to pick on Open edX at all, just like I didn't mean to pick on Ansible earlier.
+
+Even less do I want to insinuate that incompetence is at work in these projects.
+I am perfectly convinced that what I'm talking about applies to substantially all collaborative software development projects.
+
+The fact that Ansible and Open edX and so many other projects are open source simply *enables* us to look into them an investigate and analyze these things.
+
+With that said, let me give you one of many, many illustrative examples of the permanence of complexity, from this project.
 
 To wit:
 
 
 ## MongoDB in Open edX <!-- .element class="hidden" -->
 
-We need a shared file system. 
+We need a shared file system.
 
 We don't want NFS. <!-- .element class="fragment fade-in-then-semi-out" -->
 
@@ -162,7 +175,7 @@ So that leads us to our next takeaway:
 <!-- .slide: data-timing="90" -->
 ## Pushing complexity downstream does not reduce it. <!-- .element class="hidden" -->
 
-### Takeaway #3
+### Takeaway #4
 Pushing complexity downstream does not reduce it.
 
 It only makes it someone else's problem.
@@ -179,26 +192,16 @@ Examples:
   So its upstream-to-downstream ratio is probably in the 1:1000 range.
 * `curl` in contrast has on the order of 1,000 committers, and it *definitely* has way more than 100 million users.
   So there, it's probably a ratio of 1:100000 or higher.
-  
+
 So making things simpler for some number of people, while making it more difficult for *orders of magnitude* **more** people, is not a net win and not a reduction in complexity, either. 
 
+
+## So what do we do?
+
+<!-- Note -->
 So what can we do, really, to simplify?
 To reduce complexity?
 
 Now I hate to bust your bubble, but the answer is probably: nothing.
 
-And I have physics on my side to back me up.
-
-<!--
-## Monolith to Microfrontends
-
-MVC to REST+XHR/Fetch
-
-50 MFEs
-
-2 releases per year
-
-## 10-12 years?
-
-"What's a React, grandpa?"
--->
+And I don't say that lightly, but I have physics on my side to back me up.
