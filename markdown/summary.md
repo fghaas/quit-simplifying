@@ -11,3 +11,10 @@ Pushing complexity downstream does not reduce it. <!-- .element class="fragment 
 A leader's job is to slow the growth of disorder. <!-- .element class="fragment fade-in-then-semi-out" -->
 
 Keep things simple; you can't make them simple. <!-- .element class="fragment fade-in-then-semi-out" -->
+
+
+# Quit simplifying <!-- .element class="hidden" -->
+
+Quit simplifying.
+
+<https://xahteiwi.eu/quit-simplifying/>

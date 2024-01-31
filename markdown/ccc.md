@@ -114,3 +114,6 @@ There's just no escaping the clock.
 **Quit pretending you can escape the Configuration Complexity Clock.**
 
 That next iteration you think will solve your complexity problem, won't.
+
+<!-- Note -->
+Let me show you examples from another project, lest you think I cherry-picked Ansible.

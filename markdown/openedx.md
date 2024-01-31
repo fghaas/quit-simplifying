@@ -1,6 +1,9 @@
-# Open edX
+<!-- .slide: data-background-image="images/openedx.png" data-background-size="contain" -->
+# Open edX <!-- .element class="hidden" -->
 
 <!-- Note -->
+(Screenshot of <https://openedx.org/>)
+
 Now, with Ansible I could assume that everyone's familiar with the project, with this project I can't, so I'll say a few words to explain what it does.
 
 Open edX is a general-purpose learning platform, not unlike Moodle (though while Moodle is a PHP codebase, Open edX is all Python).
@@ -138,10 +141,12 @@ But alas, it was also complicated to use and maintain and somewhat difficult to 
 So again, as with the MongoDB/Blockstore bit, people desired simplification.
 
 
-<!-- .slide: data-background-image="https://docs.tutor.edly.io/_images/launch.webp" data-background-size="contain" -->
-## Tutor
+<!-- .slide: data-background-image="images/tutor-quickstart.png" data-background-size="contain" -->
+## Tutor <!-- .element class="hidden" -->
 
 <!-- Note -->
+(Screenshot of <https://docs.tutor.edly.io/quickstart.html>)
+
 And of course, containers make everything simpler, don't they?
 
 So now what happened was a project emerged to run Open edX in Docker containers, ostensibly with a single command.
@@ -150,11 +155,12 @@ This project went through a few names, but now it's called *Tutor*.
 And of course, just as with the story of Ansible and Puppet, it was *simpler,* initially, because it couldn't do nearly as much as what the Ansible playbooks could do.
 
 
-<!-- .slide: data-timing="130" -->
+<!-- .slide: data-timing="140" data-background-image="images/tutor.png" data-background-size="contain" -->
 ## Tutor repo <!-- .element class="hidden" -->
-![Screenshot of the overhangio/tutor repository on GitHub](images/tutor.png)
 
 <!-- Note -->
+(Screenshot of <https://github.com/overhangio/tutor>)
+
 But as soon as it approached something like feature parity, it was of course just as complex as the old bit.
 
 And, what Tutor actually does is it generates docker-compose definitions and Kubernetes manifests for you.
@@ -168,6 +174,10 @@ But Tutor has a plugin system that allows you to incorporate any feature you lik
 And now what you end up with is the core of the project being essentially unfit for its purpose without plugins, and the complexity of managing all the plugins and making them work together essentially ends up in the user's (the Open edX platform admin's) lap.
 
 In my experience, it's not uncommon to have to run something like 10 Tutor plugins to achieve some degree feature parity with what the Ansible playbooks offered.
+
+(By the way:
+Ansible has this problem too, now that it has split a lot of functionality into collections.
+Which we have to manage separately from Ansible Core.)
 
 So that leads us to our next takeaway:
 
@@ -190,8 +200,8 @@ Examples:
 * For Kubernetes the number of code contributors is on the order of 10,000, and there are [a few million Kubernetes clusters deployed worldwide](https://cloudnativenow.com/topics/how-many-kubernetes-clusters-exist-today/). 
   It's difficult to estimate how many clusters there are per admin, and how many admins per cluster.
   So its upstream-to-downstream ratio is probably in the 1:1000 range.
-* `curl` in contrast has on the order of 1,000 committers, and it *definitely* has way more than 100 million users.
-  So there, it's probably a ratio of 1:100000 or higher.
+* `curl` in contrast has on the order of 1,000 committers, and it *definitely* has way more than a billion users.
+  So there, it's probably a ratio of 1:1000000 or higher.
 
 So making things simpler for some number of people, while making it more difficult for *orders of magnitude* **more** people, is not a net win and not a reduction in complexity, either. 
 
