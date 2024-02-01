@@ -2,13 +2,6 @@
    overrides that you want to apply to your selected reveal.js
    "white" theme.
 */
-body:before {
-  content: url(../images/qrcode.svg);
-  position: fixed;
-  top: 2em;
-  left: 2em;
-}
-
 body:after {
   content: '@xahteiwi@mastodon.social';
   opacity: 0.5;
