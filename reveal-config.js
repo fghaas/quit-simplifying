@@ -49,7 +49,7 @@ Reveal.initialize({
 
     dependencies: [
        { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true },
-       { src: 'https://reveal-multiplex.glitch.me/client.js', async: true }
+       { src: 'https://reveal-multiplex.glitch.me/master.js', async: true }
     ],
 
 
