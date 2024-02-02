@@ -46,17 +46,30 @@ So all of those things that we've done ostensibly to keep things manageable as t
 
 — Mike Hadlow, 2012
 
+<!-- Note -->
+Now, here's something almost cute that Mike Hadlow wrote in 2012.
+
+With the benefit of more than a decade's worth of hindsight, ...
+
 
 <!-- .slide: data-timing="10" data-background-image="images/sweet-summer-child.jpeg" data-background-size="contain" -->
 ## "Oh, my sweet summer child" <!-- .element class="hidden" -->
 
 "Oh, my sweet summer child" (famous quote from Game of Thrones) <!-- .element class="hidden" -->
 
+<!-- Note -->
+... this is truly an "oh my sweet summer child" moment.
+
+Since that article appeared, there have been *so many* organisations that have taken multiple laps around the Configuration Complexity Clock, including many open source software projects.
+
 
 <!-- .slide: data-timing="10" data-background-image="https://upload.wikimedia.org/wikipedia/en/1/16/BladeRunnerRoyBattySpeech.jpeg" data-background-size="contain" -->
 ## Tears in Rain <!-- .element class="hidden" -->
 
-"Tears in Rain" speech by Roy Batty (Rutger Hauer) from the film Blade Runner, 1982 <!-- .element class="hidden" -->
+"Tears in Rain" monologue by Roy Batty (Rutger Hauer) from the film Blade Runner, 1982 <!-- .element class="hidden" -->
+
+<!-- Note -->
+... I've seen things you people wouldn't believe.
 
 
 <!-- .slide: data-timing="90" -->
@@ -113,7 +126,7 @@ There's just no escaping the clock.
 
 **Quit pretending you can escape the Configuration Complexity Clock.**
 
-That next iteration you think will solve your complexity problem, won't.
+That next iteration you think will solve your complexity problem, won't. <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
 Let me show you examples from another project, lest you think I cherry-picked Ansible.

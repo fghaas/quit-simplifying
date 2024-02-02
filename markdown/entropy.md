@@ -26,10 +26,13 @@ Now, what does that mean?
 
 ## Entropy
 
-The degree to which things are disorderly.
+The degree to which something is disorderly.
 
 <!-- Note -->
 “Entropy,” in this context, is essentially the degree to which the system is disorderly.
+
+More precisely, entropy is a measure of the number of possible configurations of a system, and of course the more *possible* configurations we have in a system, the more *probable* it is that the system is in one that isn't useful, that is, a disorderly one.
+
 In effect, the Second Law states that any system can stay just as orderly as it is now, or it can become more disorderly, but it can never again become as orderly as it once was.
 
 The normal state of the world is that things keep getting more and more disorderly.
