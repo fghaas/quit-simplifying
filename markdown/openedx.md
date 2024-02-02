@@ -35,10 +35,16 @@ Now, the reason I'm mentioning here is that it's full of great examples how comp
 
 Complexity does not recede.
 
+Abstraction and encapsulation only abstract and encapsulate complexity; they do not reduce it. <!-- .element class="fragment fade-in-then-semi-out" -->
+
 <!-- Note -->
 ... never recedes.
 
 Complexity is *always* here to stay.
+
+And as a corollary to that, no, you can't make it go away buy abstraction or encapsulation, because all those do is abstract and encapsulate, they don't make it go away.
+
+If you need any illustration of that, look at what bundled subprime mortgage securities did to the global financial markets in 2007. 
 
 Now before I proceed, let's make one thing very clear.
 It don't mean to pick on Open edX at all, just like I didn't mean to pick on Ansible earlier.
@@ -155,7 +161,7 @@ This project went through a few names, but now it's called *Tutor*.
 And of course, just as with the story of Ansible and Puppet, it was *simpler,* initially, because it couldn't do nearly as much as what the Ansible playbooks could do.
 
 
-<!-- .slide: data-timing="140" data-background-image="images/tutor.png" data-background-size="contain" -->
+<!-- .slide: data-timing="30" data-background-image="images/tutor.png" data-background-size="contain" -->
 ## Tutor repo <!-- .element class="hidden" -->
 
 <!-- Note -->
@@ -168,10 +174,21 @@ So, of course it's just one more lap around the configuration complexity clock: 
 
 But Tutor illustrates another very typical problem in complexity management: making complexity someone else's problem.
 
+
+<!-- .slide: data-timing="110" -->
+## Tutor's feature addition policy repo <!-- .element class="hidden" -->
+
+Let's add only what is useful to a significant fraction of our users! <!-- .element class="fragment fade-in-then-semi-out" -->
+
+... and for the rest, we have plugins. <!-- .element class="fragment fade-in-then-semi-out" -->
+
+<!-- Note -->
 In Tutor the lead author maintains a policy that the project will only accept new features [if it benefits "a large proportion (~30-50%) of users"](https://github.com/overhangio/tutor/pull/675#issuecomment-1140919654).
 But Tutor has a plugin system that allows you to incorporate any feature you like, without touching the core.
 
-And now what you end up with is the core of the project being essentially unfit for its purpose without plugins, and the complexity of managing all the plugins and making them work together essentially ends up in the user's (the Open edX platform admin's) lap.
+This sounds eminently reasonable: he is trying to make the project no more complex than what's needed for most users.
+
+But, what you end up with is the core of the project being essentially unfit for its purpose without plugins, and the complexity of managing all the plugins and making them work together essentially ends up in the user's (the Open edX platform admin's) lap.
 
 In my experience, it's not uncommon to have to run something like 10 Tutor plugins to achieve some degree feature parity with what the Ansible playbooks offered.
 
