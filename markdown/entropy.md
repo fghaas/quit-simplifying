@@ -53,36 +53,86 @@ growth in entropy
 passage of time
 
 <!-- Note -->
-What does that mean for each of us, individually? 
-It means, bluntly speaking, that our lives get objectively and perpetually messier over time.
+And there's a very curious consequence that arises from this:
 
-I don’t know if you’re in a better or worse place than you were 10 or 20 years ago in your life, but I’m pretty sure that you’re in a more *complicated* place now. 
+The inexorable growth in entropy over time is one of the best explanations we have why time only ever goes in one direction.
+
+You see, since Minkowski we know that space and time are really one and the same thing and can be described as a 4-dimensional spacetime.
+And since Einstein we know that all of spacetime is equally influenced by mass, and the principles of general relativity apply to both.
+
+But motion through space is reversible, and motion through time isn't, and that's peculiar.
+And the inextricable linkage between growth in entropy is one of the best possible explanations we have for that.
+
+So: reducing entropy --- simplifying things --- is just as realistic as travelling backwards in time.
+
+But!
+We can do things to (inadvertently) speed up the growth of entropy, and we can do the opposite to (hopefully deliberately) slow it down.
+
+So what are ways to drive entropy, in the kind of systems we typically manage?
 
 
-## Backwards time travel
+<!-- .slide: data-timing="90" -->
+## What drives disorder 
 
-Not an option.
+(in software systems)
+
+Adding features without feature flags <!-- .element class="fragment fade-in-then-semi-out" -->
+
+Adding features without test cases <!-- .element class="fragment fade-in-then-semi-out" -->
+
+Adding features without documentation <!-- .element class="fragment fade-in-then-semi-out" -->
+
+Refactoring without feature parity <!-- .element class="fragment fade-in-then-semi-out" -->
+
+POLA violations <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
-And many of us might probably want to go back to our less-complicated life from back then, but alas, backwards time travel (and hence entropy reduction, read: “a more orderly life”) is not an option.
+There's a huge number of ways to drive entropy in a software system.
 
-Now as long as you’re just trying (and failing) to rewind disorder in your own life, then — as long as you live and work alone — that will probably not have a harmful effect on anyone.
+Of course, in principle *every* addition to a software system increases its entropy: what you add, can go wrong.
 
-But it gets tricky when you’re applying the same thinking to living with a spouse, or in a family.
-Good luck trying to rewind your life with teenage offspring, for example, to the presumably simpler time when they were three month old babies that slept most of the day.
+But there are some things that are extremely common and that increase entropy much, much more:
 
-But let’s also talk about how this affects work in a management position.
+* Adding features without gating them behind a feature flag means once the feature is rolled out, you have no way to undo it, and any unexpected fallout from your change is not only here to stay, but continues to accumulate, making the mess harder and harder to fix.
+
+* Adding features without test cases means when something breaks in a later addition, you have no idea what broke, exactly.
+
+* Adding features without documentation means you have no record how the system is *expected* to behave, so you can't even *tell* if something broke or not.
+
+* Refactoring without first achieving feature parity means you're going to run with two or more parallel implementation strands for essentially ever, because you can be damn sure that that *one* thing you could leave out of the refactoring now breaks at least *one* user's workflow.
+
+* And violations of the Principle of Least Astonishment (POLA) --- in other words, the system behaving unintuitively --- will just screw up everything, forever.
+
+So what does this mean for the people responsible for those systems?
+What is *their* job?
 
 
 ## A manager's job <!-- .element class="hidden" -->
 
 ### Takeaway #5
-If you are a manager, it's your job to slow the growth of disorder in the part of the organization you manage.
+If you are a responsible for a system, it's your job to slow the growth of disorder in that system.
 
 <!-- Note -->
+"System" is deliberately very broad here: a software project, a platform you manage, and even an organizational unit that you are responsible as a manager for. 
+
 You won’t be able to *reduce* disorder, and any attempt to do so pits you against a most fundamental law of physics.
 
 (Laws of physics are like terrorists: you shouldn’t attempt to negotiate with them.) 
+
+But you can do your damndest to slow it down.
+
+
+## How can we slow the growth of disorder? <!-- .element class="hidden" -->
+
+Docs or it didn't happen <!-- .element class="fragment fade-in-then-semi-out" -->
+
+POLA <!-- .element class="fragment fade-in-then-semi-out" -->
+
+Test cases or it won't merge <!-- .element class="fragment fade-in-then-semi-out" -->
+
+Feature flag or it won't deploy <!-- .element class="fragment fade-in-then-semi-out" -->
+
+Deprecate – Remove – Refactor <!-- .element class="fragment fade-in-then-semi-out" -->
 
 
 ## Most managers == entropy accelerators
