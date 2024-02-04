@@ -84,7 +84,7 @@ Adding features without documentation <!-- .element class="fragment fade-in-then
 
 Refactoring without feature parity <!-- .element class="fragment fade-in-then-semi-out" -->
 
-POLA violations <!-- .element class="fragment fade-in-then-semi-out" -->
+Principle of Least Astonishment (POLA) violations <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
 There's a huge number of ways to drive entropy in a software system.
@@ -133,6 +133,28 @@ Test cases or it won't merge <!-- .element class="fragment fade-in-then-semi-out
 Feature flag or it won't deploy <!-- .element class="fragment fade-in-then-semi-out" -->
 
 Deprecate – Remove – Refactor <!-- .element class="fragment fade-in-then-semi-out" -->
+
+<!-- Note -->
+Here's what we can do:
+
+Never land a change without documentation.
+Always make sure the documentation update happens simultaneously with the change.
+Docs define how the system is supposed to behave.
+
+Always follow the principle of least astonishment: make sure the system behaves in a way that "makes sense".
+And no, following item #1 in this list is not a free pass for this:
+of course, it is 100 times worse for a feature to behave counter-intuitively and *not* be documented, than to behave counter-intuitively and *be* documented.
+But it's 100 times *better* for the system to behave intuitively, and be documented.
+
+Never merge a feature without a corresponding test case.
+Always include the test case in the patch that merges the feature.
+
+Never send a new feature to prod without a feature flag.
+
+And for when you decide a particular part of the system needs refactoring, and you think there are some things that the refactor would touch that you actually don't need anymore:
+figure out what you think you no longer need, deprecate it, cut a release, *remove it,* cut a release, and *then* refactor what remains *to full feature parity.*
+
+These are all things that any developer, sysadmin, operator can do to stem the growth of entropy in a system.
 
 
 ## Most managers == entropy accelerators
