@@ -40,8 +40,8 @@ The normal state of the world is that things keep getting more and more disorder
 There are multiple classic examples of this: 
 
 * you can mix two paints in a bucket but cannot unmix them, 
-* you can open a container of gas in a vacuum chamber and the gas will disperse but never go back into the container, 
-* you can scramble and cook an egg but never return it to its original protein structure.
+* you can scramble and cook an egg but never return it to its original protein structure,
+* you can open a container of gas in a vacuum chamber and the gas will disperse but never go back into the container. 
 
 
 ## A curious consequence
