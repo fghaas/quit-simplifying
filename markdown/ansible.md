@@ -10,13 +10,12 @@ So it's fairly safe to assume that everyone around here knows Ansible, at least 
 * Who has contributed to Ansible?
 
 
-<!-- .slide: data-timing="15" -->
+<!-- .slide: data-timing="15" data-background-image="images/ansible-github.png" data-background-size="contain" -->
 ## Ansible repository on GitHub <!-- .element class="hidden" -->
-![Ansible repository on GitHub](images/ansible-github.png)
-
-<https://github.com/ansible/ansible>
 
 <!-- Note -->
+(Screenshot of: <https://github.com/ansible/ansible>)
+
 You are most probably familiar with this.
 
 This is the Ansible repository on GitHub, whose commit history goes all the way back to 2012-02-23.
@@ -30,18 +29,17 @@ Genesis.
 ```
 
 
-<!-- .slide: data-timing="10" -->
+<!-- .slide: data-timing="10" data-background-image="images/ansible-citation-needed.png" data-background-size="contain" -->
 ## Ansible, citation needed <!-- .element class="hidden" -->
 
-![Cropped screenshot of Ansible Wikipedia page](images/ansible-citation-needed.png)
-
 <!-- Note -->
+(Cropped screenshot from: <https://en.wikipedia.org/wiki/Ansible_(software)>)
+
 Curiously, Wikipedia [has Ansible's initial release](https://en.wikipedia.org/wiki/Ansible_(software)) as having occurred on 2012-02-20, "[citation needed]"
 
 
-<!-- .slide: data-timing="30" -->
+<!-- .slide: data-timing="30" data-background-image="images/ansible-github.png" data-background-size="contain" -->
 ## Ansible repository on GitHub (2) <!-- .element class="hidden" -->
-![Ansible repository on GitHub](images/ansible-github.png)
 
 <!-- Note -->
 So anyway, back to the GitHub repo.
@@ -72,9 +70,8 @@ Ansible is a **radically simple** IT automation platform that makes your applica
 **radically simple**
 
 
-<!-- .slide: data-timing="30" -->
+<!-- .slide: data-timing="30" data-background-image="images/srsly.jpg" data-background-size="contain" -->
 ## Srsly. <!-- .element class="hidden" -->
-![Srsly. (corruption of: seriously)](images/srsly.jpg)
 
 <!-- Note -->
 Would you actually describe Ansible to someone who is just starting out as "simple"?

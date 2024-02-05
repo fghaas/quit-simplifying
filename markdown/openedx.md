@@ -17,7 +17,8 @@ So it's been around for more than 10 years.
 ![Screenshot of the openedx/edx-platform repository on GitHub](images/edx-platform.png)
 
 <!-- Note -->
-It's widely used not only in academia, but also in business education, and it's something that I use in my day job on a daily basis, as a courseware author, a platform admin, and a developer.
+It's widely used not only in academia, but also in business education, and by non-profit educational platforms that are *not* academic, like [Reporterfabrik](https://reporterfabrik.org/).
+And it's something that I use in my day job on a daily basis, as a courseware author, a platform admin, and a developer.
 
 And at its core it's really a Django application, or rather a whole array of Django applications all working together.
 It has
@@ -33,16 +34,16 @@ Now, the reason I'm mentioning here is that it's full of great examples how comp
 
 ### Takeaway #3
 
-Complexity does not recede.
+**Complexity does not recede.**
 
-Abstraction and encapsulation only abstract and encapsulate complexity; they do not reduce it. <!-- .element class="fragment fade-in-then-semi-out" -->
+Abstraction, automation and encapsulation only abstract, automate and encapsulate complexity; they do not reduce it. <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
 ... never recedes.
 
 Complexity is *always* here to stay.
 
-And as a corollary to that, no, you can't make it go away buy abstraction or encapsulation, because all those do is abstract and encapsulate, they don't make it go away.
+And as a corollary to that, no, you can't make it go away by abstraction, automation, or encapsulation, because all those do is abstract, automate and encapsulate complexity, they don't make it go away.
 
 If you need any illustration of that, look at what bundled subprime mortgage securities did to the global financial markets in 2007. 
 
