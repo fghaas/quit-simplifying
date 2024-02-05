@@ -17,4 +17,4 @@ Keep things simple; you can't make them simple. <!-- .element class="fragment fa
 
 Quit simplifying.
 
-<https://xahteiwi.eu/quit-simplifying/>
+<https://fghaas.github.io/quit-simplifying/>
