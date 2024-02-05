@@ -21,7 +21,7 @@ Reveal.initialize({
         themesPath: 'reveal.js/dist/theme',
 
         transitions: false,
-        openButton: false,
+        openButton: true,
         openSlideNumber: true,
         markers: true
     },
