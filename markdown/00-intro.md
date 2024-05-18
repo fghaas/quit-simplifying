@@ -4,7 +4,7 @@
 
 Florian Haas | [@xahteiwi@mastodon.social](https://mastodon.social/@xahteiwi)
 
-Config Management Camp 2024 Ghent | 2024-02-05
+PyCon Italia 2024 | 2024-05-24
 
 <https://fghaas.github.io/quit-simplifying/>
 
