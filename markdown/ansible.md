@@ -1,8 +1,8 @@
 # Ansible
 
 <!-- Note -->
-This is Config Management Camp!
-So it's fairly safe to assume that everyone around here knows Ansible, at least to some degree.
+This is a Python conference!
+So, considering that it's a Python projects, it's probably safe to assume that everyone around here knows Ansible, at least to some degree.
 
 * Who knows Ansible?
 * Who has used Ansible to deploy or manage production systems?
