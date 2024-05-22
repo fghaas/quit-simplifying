@@ -16,7 +16,16 @@ Reveal.initialize({
 
 
     menu: {
-        themes: true,
+        themes: [
+	    {
+		name: 'Dark',
+		theme: 'reveal.js/dist/theme/black.css'
+	    },
+	    {
+		name: 'Light',
+		theme: 'reveal.js/dist/theme/white.css'
+	    }
+	],
 
         themesPath: 'reveal.js/dist/theme',
 
