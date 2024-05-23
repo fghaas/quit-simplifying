@@ -63,7 +63,7 @@ With the benefit of more than a decade's worth of hindsight, ...
 Since that article appeared, there have been *so many* organisations that have taken multiple laps around the Configuration Complexity Clock, including many open source software projects.
 
 
-<!-- .slide: data-timing="10" data-background-image="https://upload.wikimedia.org/wikipedia/en/1/16/BladeRunnerRoyBattySpeech.jpeg" data-background-size="contain" -->
+<!-- .slide: data-timing="10" data-background-image="https://upload.wikimedia.org/wikipedia/en/1/16/BladeRunnerRoyBattySpeech.jpeg" data-background-size="cover" -->
 ## Tears in Rain <!-- .element class="hidden" -->
 
 "Tears in Rain" monologue by Roy Batty (Rutger Hauer) from the film Blade Runner, 1982 <!-- .element class="hidden" -->
@@ -101,11 +101,13 @@ And then you figure out hold on, I can discover most of what I need for my inven
 And of course the cycle doesn't stop there, because now your *inventory driver* grows configuration options, etc. etc. ad infinitum.
 
 
-## Other Configuration Complexity Clock examples <!-- .element class="hidden" -->
+## Quit pretending you can escape <!-- .element class="hidden" -->
 
-Terraform → Terragrunt <!-- .element class="fragment fade-in-then-semi-out" -->
+### Takeaway #2
 
-Kubernetes manifests → Helm charts <!-- .element class="fragment fade-in-then-semi-out" -->
+**Quit pretending you can escape the Configuration Complexity Clock.**
+
+That next iteration you think will solve your complexity problem, won't. <!-- .element class="fragment fade-in-then-semi-out" -->
 
 <!-- Note -->
 And just so I'm abundantly clear here, this is by no means limited to Ansible.
@@ -119,14 +121,4 @@ Kubernetes manifests are another example, with people getting sick of hacking th
 
 There's just no escaping the clock.
 
-
-## Quit pretending you can escape <!-- .element class="hidden" -->
-
-### Takeaway #2
-
-**Quit pretending you can escape the Configuration Complexity Clock.**
-
-That next iteration you think will solve your complexity problem, won't. <!-- .element class="fragment fade-in-then-semi-out" -->
-
-<!-- Note -->
 Let me show you examples from another project, lest you think I cherry-picked Ansible.
