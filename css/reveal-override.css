@@ -2,16 +2,6 @@
    overrides that you want to apply to your selected reveal.js
    "white" theme.
 */
-body:after {
-  content: '@xahteiwi@mastodon.social';
-  opacity: 0.5;
-  font-size: 200%;
-  font-family: "Source Sans Pro", sans-serif;
-  position: fixed;
-  bottom: 2em;
-  right: 2em;
-}
-
 .reveal .hidden {
   display: none;
 }
