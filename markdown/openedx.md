@@ -53,7 +53,7 @@ It don't mean to pick on Open edX at all, just like I didn't mean to pick on Ans
 Even less do I want to insinuate that incompetence is at work in these projects.
 I am perfectly convinced that what I'm talking about applies to substantially all collaborative software development projects.
 
-The fact that Ansible and Open edX and so many other projects are open source simply *enables* us to look into them an investigate and analyze these things.
+The fact that Ansible and Open edX and so many other projects are open source simply *enables* us to look into them, and investigate and analyse these things.
 
 With that said, let me give you one of many, many illustrative examples of the permanence of complexity, from this project.
 
