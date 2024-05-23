@@ -13,7 +13,7 @@ As far as we know, there are three fundamental physical theories that, combined,
 * quantum mechanics and the Standard Model, which explain the other three fundamental forces of nature — electromagnetism, the strong force, and the weak force —, which in turn explains structure, and they nature of atoms, and ultimately chemistry;
 * and finally, thermodynamics, which among other things explains heat, and work.
 
-Thermodynamics has a famous Second Law that can be stated in various ways — in one modern and simplified form, we say:
+Thermodynamics has a famous Second Law that can be stated in various ways — in one modern form, we say:
 
 
 ## Second Law of Thermodynamics
@@ -37,11 +37,19 @@ In effect, the Second Law states that any system can stay just as orderly as it 
 
 The normal state of the world is that things keep getting more and more disorderly.
 
-There are multiple classic examples of this: 
+There are multiple classic examples of this:
 
-* you can mix two paints in a bucket but cannot unmix them, 
+* you can mix two paints in a bucket but cannot unmix them,
 * you can scramble and cook an egg but never return it to its original protein structure,
-* you can open a container of gas in a vacuum chamber and the gas will disperse but never go back into the container. 
+* you can open a container of gas in a vacuum chamber and the gas will disperse but never go back into the container.
+
+Oh and by the way, some people have tried to call me out on something they think is a gotcha, namely that the Second Law only states that entropy can never decrease in a *closed* system, but in an *open* system it can.
+
+That is, unfortunately, a nonsensical take.
+
+1. If you do want to nitpick then the Second Law technically only applies to *isolated* systems, not closed ones.
+2. Isolated systems only exist in theory; in practice everything is an approximation good enough that the Second Law applies to it.
+3. Every "open" system is just a part of a larger system, all the way up to the universe. So even if you were to shift entropy out of a smaller system that you declare "open", that entropy would still exist in the "closed" system, however defined, that your allegedly "open" system is a part of.
 
 
 ## A curious consequence
@@ -63,7 +71,7 @@ And since Einstein we know that all of spacetime is equally influenced by mass, 
 But motion through space is reversible, and motion through time isn't, and that's peculiar.
 And the inextricable linkage between growth in entropy is one of the best possible explanations we have for that.
 
-So: reducing entropy --- simplifying things --- is just as realistic as travelling backwards in time.
+So: reducing entropy is just as realistic as travelling backwards in time.
 
 But!
 We can do things to (inadvertently) speed up the growth of entropy, and we can do the opposite to (hopefully deliberately) slow it down.
