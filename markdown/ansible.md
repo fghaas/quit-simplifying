@@ -2,7 +2,7 @@
 
 <!-- Note -->
 This is a Python conference!
-So, considering that it's a Python projects, it's probably safe to assume that everyone around here knows Ansible, at least to some degree.
+So, considering that it's a Python project, it's probably safe to assume that everyone around here knows Ansible, at least to some degree.
 
 * Who knows Ansible?
 * Who has used Ansible to deploy or manage production systems?
@@ -10,7 +10,7 @@ So, considering that it's a Python projects, it's probably safe to assume that e
 * Who has contributed to Ansible?
 
 
-<!-- .slide: data-timing="15" data-background-image="images/ansible-github.png" data-background-size="contain" -->
+<!-- .slide: data-timing="45" data-background-image="images/ansible-github.png" data-background-size="contain" -->
 ## Ansible repository on GitHub <!-- .element class="hidden" -->
 
 <!-- Note -->
@@ -27,22 +27,6 @@ Date:   Thu Feb 23 14:17:24 2012 -0500
 
 Genesis.
 ```
-
-
-<!-- .slide: data-timing="10" data-background-image="images/ansible-citation-needed.png" data-background-size="contain" -->
-## Ansible, citation needed <!-- .element class="hidden" -->
-
-<!-- Note -->
-(Cropped screenshot from: <https://en.wikipedia.org/wiki/Ansible_(software)>)
-
-Curiously, Wikipedia [has Ansible's initial release](https://en.wikipedia.org/wiki/Ansible_(software)) as having occurred on 2012-02-20, "[citation needed]"
-
-
-<!-- .slide: data-timing="30" data-background-image="images/ansible-github.png" data-background-size="contain" -->
-## Ansible repository on GitHub (2) <!-- .element class="hidden" -->
-
-<!-- Note -->
-So anyway, back to the GitHub repo.
 
 There's something up here in the repository description that **I think** has been mostly unchanged since 2012.
 At least I remember it to have been there when I first started with Ansible, and I think I started pretty early on.
